@@ -5,9 +5,111 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F1F5F8;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.student-header span {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.content-table {
+  /* padding: 1; */
+  border-collapse: collapse;
+  margin: 20px 15px;
+  font-size: 0.9rem;
+  min-width: 97%;
+}
+.content-table thead tr {
+  text-align: left;
+  font-weight: bold;
+  /* padding-bottom: 40px; */
+}
+.content-table th {
+  padding: 40px 15px;
+}
+.content-table td {
+  padding: 25px 15px;
+}
+.content-table tbody tr {
+  border-bottom: 20px solid #F1F5F8;
+  background-color: #ffffff;
+}
+.edit-button:hover {
+  cursor: pointer;
+}
+.edit-button {
+  color: #4682B4;
+}
+#div2{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  width: 25%;
+  height: 100%;
+  background-color: #ffffff;
+  max-height: 580px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.t-div {
+  z-index: 0;
+  opacity: 0.4;
+}
+
+/* Button */
+.save-button:hover {
+  cursor: pointer;
+  background-color: #a34f0a;
+}
+.save-button {
+  background-color: #c46210;
+  color: #ffffff;
+  border-radius: 10%;
+  border: 0 solid #c46210;
+  width: 25%;
+  height: 35px;
+  margin: 20px 5px 0 5px;
+}
+.cancel-button:hover{
+  cursor: pointer;
+  background-color: #e0dcdc;
+}
+.cancel-button {
+  background-color: #ffffff;
+  color: red;
+  border-radius: 10%;
+  border: 1px solid red;
+  width: 25%;
+  height: 35px;
+  margin: 20px 5px 0 5px;
+}
+.cross-button {
+  background-color: rgb(255, 255, 255);
+  border: 0px;
+  float: right;
+}
+.form select,
+.form input {
+  width: 86%;
+  margin: 20px;
+  height: 28px;
+  border: 1px solid #b8b6b6d4;
+  border-radius: 5px;
+  padding: 5px;
+}
+.form label {
+  margin: 20px;
+}
+.form select {
+  width: 90%;
+  height: 40px;
+}
+hr {
+  border: 0.5px solid #b8b6b6d4;
+  background-color: #b8b6b6d4;
 }
